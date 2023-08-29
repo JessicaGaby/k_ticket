@@ -1,0 +1,120 @@
+<link rel="stylesheet" href="/css/cooperativa/editar.css">
+{{#each lista}}
+<form action="/cooperativa/editar/{{id_cooperativa}}" method="post">
+
+  <head>
+
+    <head>
+      <div id="contendodrhe">
+        <div>
+          <div class="navbar">
+            <div id="imagen">
+              <img src="/img/logon.png"></img>
+            </div>
+          
+            <a id="administrador" href="#">Administrador</a>
+            <img id="img2" src="/img/perfil.png" alt="">
+          </div>
+        </div>
+    </head>
+   
+    <div id="container">
+      <h2>Actualizacion de Cooperativas</h2>
+      <u>
+        <h3>Datos de la cooperativa</h3>
+      </u>
+
+      <label id="nameCoop" for="nombre">Nombre de la cooperativa</label> <br>
+      <input type="text" id="nombrecoopera" name="nombres_cooperativa" value="{{nombres_cooperativa}}" required>
+
+      <label id="numero" for="numero">Numero de identificacion tributaria</label>
+      <input type="text" id="numeroIdent" name="numero_identificacion_cooperativa" value="{{numero_identificacion_cooperativa}}" required>
+
+      <label id="numTrans" for="numerotransporte">Numero de transportes </label>
+      <input type="text" id="numeroTrans" name="numero_transporte_cooperativa" value="{{numero_transporte_cooperativa}}" required>
+      <br> <br>
+
+      <label id="infoConta" for="info">Informacion de contactos</label> <br> <br>
+      <input type="text" id="informacionContac" name="contactos_cooperativa" value="{{contactos_cooperativa}}" required>
+
+      <label id="horario" for="horarios">Horarios de atencion</label>
+      <select id="horarioAte" name="horario_cooperativa" value="{{horario_cooperativa}}" required>
+        <option value="horario1">7:00 am a 13:00pm</option>
+        <option value="horario2">15:00pm a 18:00pm</option>
+        <option value="horario3">19:00pm a 23:00pm</option>
+
+        <br>
+
+      </select> <br> <br>
+
+      <u>
+        <h3>Datos del encargado</h3>
+      </u>
+
+      <label id="nombr" for="nombres">Nombres</label> <br>
+      <input type="text" id="nombres" name="nombres_encargado" value="{{nombres_encargado}}" required>
+
+      <label id="numeroCedu" for="numerocedula">Numero de cedula</label>
+      <input type="text" id="numCedu" name="cedula_encargado" value="{{cedula_encargado}}" required>
+
+      <label id="sexo" for="sexo">Sexo:</label> <br> <br> <br> <br>
+      <select id="sexoSele" name="sexo_encargado" value="{{sexo_encargado}}" required>
+       <option >Masculino</option>
+        <option >Femenino</option>
+      </select> 
+
+        <h3>Contactos</h3> 
+
+      <label id="telfC" for="telefonocelu">Celular</label> <br>
+      <input type="text" id="telefonoC" name="celular_encargado" value="{{celular_encargado}}" required>
+
+      <label id="teleCo" for="telefonoconv">Telefono Convencional</label>
+      <input type="text" id="telefonoCo" name="telefono_encargado" value="{{telefono_encargado}}" required>
+
+      <label id="email" for="emailCorreo">Email</label>
+      <input type="text" id="Email" name="email_encargado" value="{{email_encargado}}" required>
+      <br>
+      <br>
+      <br>
+      <button type="submit">Actualizar</button>
+      <button type="submit" style="background-color: red;">Cancelar</button>
+    </div>
+</form>
+{{/each}}
+
+<footer id="footer" class="">
+      <div class="container">
+        <div class="row text-left">
+          <div id="contact">
+            <p>Contactanos</p>
+            <img id="btnwasa" src="/img/wasa.png" alt=""><br>
+            <img id="btnmail" src="/img/mail.png" alt=""><br>
+            <img id="btntelef" src="/img/telef.png" alt="">
+            <b><a>Whatsapp</a><br></b>
+            <a>09 3456 7890</a><br> <br>
+            <b><a>Email</a></b><br> 
+            <a>hola@tickets.com</a> <br> <br>
+            <b><a>Call Center</a></b><br> 
+            <a>+59322 3456 7891</a><br> <br>
+          </div>
+          <div id="destin">
+            <p>Destinos</p>
+            <a href="">Playa</a><br> <br>
+            <a href="">Montaña</a><br> <br>
+            <a href="">Inolvidables eventos</a>
+          </div>
+          <div id="soport">
+            <p>Soporte</p>
+            <a href="">Preguntas frecuentes</a><br> <br>
+            <a href="">Política de privacidad</a><br> <br>
+            <a href="">Términos y condiciones</a><br> <br>
+            <a href="">Inolvidables eventos</a> <br>
+          </div>
+          <div id="follow">
+           <b> <p>Síguenos</p></b>
+           <a href=""><img id="ig" src="/img/insta.png" alt=""></a>
+           <a href=""><img id="fb" src="/img/fb.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>

@@ -1,0 +1,525 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+#img2{
+  position: relative;
+  width: 67px;
+  height: 63px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  right: -10px;
+}
+#contenedorhe{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+#contenedor{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+h3 {
+  position: relative;
+  top: 450px;
+  text-decoration: underline;
+}
+.navbar {
+    background-color: #1D202B;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+#imagen{
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+  max-height: 100%;
+}
+#imagen img{
+  width: 20%;
+  height: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fondo{
+  opacity: 0.6;
+   width: 1000px;
+   height: 926px;
+   position: relative;
+   left: -15px;
+   top: -62px;
+   border-radius: 100px;
+
+}
+#boton{
+  width: 160px;
+  height: 48px;
+  background-color: #F28705;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 30px;
+  right: 100px;
+  position: relative;
+}
+#inicio{
+  position: absolute;
+  left: 850px;
+}
+#listar{
+  position: absolute;
+  left: 950px;
+}
+
+  #administrador{
+    position: absolute;
+    left:1050px;
+  }
+/*formulario*/  
+#container{
+  position: relative;
+  top: 50px;
+  width: 1000px;
+  max-width: 1000px;
+  height: 925px;
+  margin: 75px 160px;
+  padding: 15px;
+  box-shadow: 0px 0px 20px#05198b;
+  background-color:#b3b3b3;
+  color: #000000;
+  border-radius: 100px;
+}
+#container h2{
+  position: relative;
+  text-align: center;
+  top: -60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#container h3{
+position: relative;
+text-align: left;
+top: -910px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #000000;
+}
+#name{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -905px;
+    left: 26px;
+    color: #000000;
+}
+#nombre{
+  position: relative;
+    right: 0px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#numeroce1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -940px;
+    left: 75px;
+    color: #000000;
+}
+#numeroce2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -940px;
+    left: 75px;
+    color: #000000;
+}
+#cedula1{
+  position: relative;
+    right: 0px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#cedula2{
+  position: relative;
+    right: 0px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#numetelef1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -940px;
+    left: 75px;
+    color: #000000;
+}
+#telefono1{
+  position: relative;
+    right: 15px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#numetelef2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -885px;
+    left: 20px;
+    color: #000000;
+}
+#telefono2{
+  position: relative;
+    right: 75px;
+    top: -855px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#correoele{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -895px;
+    left: 26px;
+    color: #000000;
+}
+#correo{
+  position: relative;
+    right: 0px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+/*destinatario*/
+#calle{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -875px;
+    left: 26px;
+    color: #000000;
+}
+#callepri{
+  position: relative;
+    right: 0px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#calles{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -935px;
+    left: 75px;
+    color: #000000;
+}
+#callese{
+  position: relative;
+    right: 70px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#casa{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -935px;
+    left: 0px;
+    color: #000000;
+}
+#numcasa{
+  position: relative;
+    left: 655px;
+    top: -926px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+
+/*datos de envio*/
+
+#nameco{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -900px;
+    left: 26px;
+    color: #000000;
+}
+#nomcoop{
+  position: relative;
+    right: 0px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#telfC{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -935px;
+    left: 75px;
+    color: #000000;
+}
+#telefonoC{
+  position: relative;
+    right: 120px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#date{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -930px;
+    left: -45px;
+    color: #000000;
+}
+#fecha{
+  position: relative;
+    left: 655px;
+    top: -926px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#numreg{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -915px;
+    left: 26px;
+    color: #000000;
+}
+#registro{
+  position: relative;
+    right: 245px;
+    top: -870px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+#direccion{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -940px;
+    right: -65px;
+    color: #000000;
+}
+#direccione{
+  position: relative;
+    right: 15px;
+    top: -890px;
+    width: 265px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px, 31px, 0px, 7px;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 30px;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+  left: 380px;
+  top: -855px;
+  border-top-left-radius: 0cm;
+}
+
+.registrarse button {
+  background-color: #2579e6;
+}
+
+
+.cancelar button {
+  background-color: #ec0d0d;
+}
+
+.container{
+  max-width:1040px;
+  margin: 0 auto 8px auto;
+}
+#footer{
+  background-color: #1D202A;
+  position: relative;
+  top: 250px;
+  padding: 35px; 
+}
+#footer p{
+  position: relative;
+  color: white;
+  top: 35px;
+}
+#contact{
+  position: relative;
+}
+#contact p{
+  position: relative;
+  top: -2px;
+}
+#contact a{
+  position: relative;
+  color: white;
+  left: 80px;
+  top: -50px;
+}
+#btnwasa{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  top: 45px;
+}
+#btnmail{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  top: 85px;
+}
+#btntelef{
+  position: relative;
+  height: 40px;
+  width: 40px; 
+  top: 115px;
+}
+#inf a{
+  position: relative;
+  left: 350px;
+  color: rgb(124, 124, 124);
+}
+#destin a{
+  position: relative;
+  left: 300px;
+  color: rgb(124, 124, 124);
+}
+#destin p{
+  position: relative;
+  left: 300px;
+  color: white;
+  top: 0px;
+}
+.soport p{
+  left: 800px;
+}
+#soport a{
+  position: relative;
+  left: 400px;
+  color: rgb(124, 124, 124);
+}
+#soport p{
+  position: relative;
+  top: -2px;
+  left: 400px;
+  color: white;
+}
+#follow{
+  position: relative;
+  top: -38px;
+  left: 470px;
+}
+#fb{
+  position: relative;
+  height: 40px;
+  width: 40px; 
+  top: 80px;
+  left: -50px;
+}
+#ig{
+  position: relative;
+  height: 40px;
+  width: 40px; 
+  top: 80px;
+  left: 40px;
+} 
